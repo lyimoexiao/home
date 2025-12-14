@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   elementPlus: {
     installMethods: ['ElLoading', 'ElMessage', 'ElMessageBox', 'ElNotification'],
     themes: ['dark'],
-    // defaultLocale: 'zh-CN',
+    defaultLocale: 'zh-CN',
     themeChalk: {},
   },
 
@@ -53,13 +53,5 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
 
   devtools: { enabled: true },
-
-  nitro: {
-    preset: 'cloudflare_pages',
-    cloudflare: {
-      deployConfig: true,
-      nodeCompat: true,
-    },
-  },
 
 })
