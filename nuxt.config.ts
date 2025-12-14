@@ -20,6 +20,9 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://fonts.googleapis.cn/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+SC:wght@100..900&family=Noto+Serif+SC:wght@200..900&display=swap', media: 'print', onload: 'this.media="all"' },
 
       ],
+      script: [
+        { 'src': 'https://umami.66ccff.love/script.js', 'defer': true, 'data-website-id': '49426243-1508-4a89-9b45-d61a41621976' },
+      ],
     },
 
     rootAttrs: {
