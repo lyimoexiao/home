@@ -1,8 +1,8 @@
 <script setup lang="ts">
-const router = useRouter()
+const route = useRoute()
 
 function isActive(path: string) {
-  return router.currentRoute.value.path === path
+  return route.path === path
 }
 
 interface NavigationItem {
