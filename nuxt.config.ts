@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   elementPlus: {
     installMethods: ['ElLoading', 'ElMessage', 'ElMessageBox', 'ElNotification'],
     themes: ['dark'],
-    defaultLocale: 'zh-CN',
+    // defaultLocale: 'zh-CN',
     themeChalk: {},
   },
 
