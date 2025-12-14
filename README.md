@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Lyi's Homepage based on Nuxt 4
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -73,3 +73,7 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## LICENSE
+
+[MIT License](./LICENSE)
