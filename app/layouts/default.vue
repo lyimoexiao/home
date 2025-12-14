@@ -3,7 +3,6 @@
 </script>
 
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <LayoutHeader />
+  <slot />
 </template>

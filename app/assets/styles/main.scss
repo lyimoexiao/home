@@ -1,0 +1,15 @@
+:root {
+  --home-font-sans:
+    'LXGW WenKai Screen', 'MiSans', 'InterVariable', 'Inter', 'InterDisplay', 'Noto Sans SC', 'Noto Serif SC',
+    'JetBrains Mono', sans-serif;
+
+  --hue: 200deg;
+  --c-primary: hsl(var(--hue) 100% 70%);
+  --c-primary-soft: hsl(var(--hue) 100% 70% / 0.2);
+
+  color-scheme: dark;
+}
+
+::selection {
+  background-color: var(--c-primary-soft);
+}
