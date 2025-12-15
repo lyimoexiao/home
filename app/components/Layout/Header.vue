@@ -44,7 +44,7 @@ watch(() => route.path, () => {
     </div>
   </header>
 
-  <ElDrawer v-model="mobileMenuDrawerOpen" direction="btt">
+  <ElDrawer v-model="mobileMenuDrawerOpen" direction="btt" header-class="mb-0!">
     <template #header>
       <div class="flex gap-2 items-center">
         <div class="i-mingcute-navigation-line" />

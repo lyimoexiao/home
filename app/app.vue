@@ -14,9 +14,7 @@ nuxtApp.hook('page:finish', () => {
 <template>
   <NuxtLoadingIndicator />
   <!-- <Background /> -->
-  <ElScrollbar height="100vh">
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-  </ElScrollbar>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
