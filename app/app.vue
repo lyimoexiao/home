@@ -13,7 +13,7 @@ nuxtApp.hook('page:finish', () => {
 
 <template>
   <NuxtLoadingIndicator />
-  <!-- <Background /> -->
+  <Background />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
