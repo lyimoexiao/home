@@ -1,0 +1,20 @@
+name: Build SSG and Test on ${{ gitea.head_ref }}
+run-name: Build SSG and Test on ${{ gitea.head_ref }}
+on: [push]
+jobs:
+  build:
+    name: Build SSG
+    runs-on: node-24
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Check Internet
+        run: curl ip.sb
+      - name: Install Pnpm
+        run: npm install -g pnpm --registry https://mirrors.huaweicloud.com/repository/npm/
+      - name: Install dependencies
+        run: pnpm install --registry https://mirrors.huaweicloud.com/repository/npm/
+      - name: Build SSG
+        run: pnpm generate
+      - name: Print generated files
+        run: ls -lha dist/
